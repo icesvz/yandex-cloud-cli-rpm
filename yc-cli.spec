@@ -37,7 +37,7 @@ install -m 755 yc %{buildroot}%{_libdir}/yc/bin
 
 %changelog
 
-* Tue Aug 22 2023 icesvz <icesvz@gmail.com> - 0.108.1
+* Wed Aug 23 2023 icesvz <icesvz@gmail.com> - 0.108.1
 - Bump 
 
 * Tue Aug 22 2023 icesvz <icesvz@gmail.com> - 0.106.0
