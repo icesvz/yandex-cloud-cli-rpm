@@ -1,5 +1,5 @@
 Name:           yc
-Version:        0.113.0
+Version:        0.121.0
 Release:        1%{?dist}
 Summary:        The Yandex Cloud command-line interface CLI
 
@@ -8,7 +8,7 @@ URL:            https://cloud.yandex.com
 
 Source0:        https://storage.yandexcloud.net/yandexcloud-yc/release/%{version}/linux/amd64/yc
 
-%global         SHA256SUM0 49ca7a12c4be6915c90939a3e2591c3ab4618c5787134d89bc6ae39e22bb1e6d
+%global         SHA256SUM0 06ad9089ed3599b6c4077afc362c6703e6b2756a37bf788bbec41b099bd0a074
 
 BuildRequires:  curl
 
@@ -36,6 +36,9 @@ install -m 755 yc %{buildroot}%{_libdir}/yc/bin
 %{_libdir}/yc/*
 
 %changelog
+
+* Wed Apr 03 2024 icesvz <icesvz@gmail.com> - 0.121.0
+- Bump 
 
 * Wed Nov 22 2023 icesvz <icesvz@gmail.com> - 0.113.0
 - Bump 
